@@ -1,0 +1,2 @@
+class FeishuError(Exception):
+    pass
