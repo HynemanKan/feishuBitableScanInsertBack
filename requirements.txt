@@ -6,6 +6,8 @@ Flask-RESTful
 lxml
 python-dotenv
 requests
-pycryptodomex
+pycryptodome
 gunicorn
 gevent
+pyjwt
+pydantic_settings

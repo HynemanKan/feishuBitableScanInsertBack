@@ -44,7 +44,10 @@ class DataFetch:
         attrs = {}
         for item in item_attrs_blocks:
             block = list(item.children)
-            attrs[block[0].text] = block[1].text
+            try:
+                attrs[block[0].text] = block[1].text
+            except Exception:
+                pass
         item_package = ""
         if "商品封装" in attrs:
             item_package = attrs["商品封装"]
