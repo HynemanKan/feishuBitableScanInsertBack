@@ -1,0 +1,11 @@
+APScheduler
+bs4
+Flask
+Flask-Login
+Flask-RESTful
+lxml
+python-dotenv
+requests
+pycryptodomex
+gunicorn
+gevent
